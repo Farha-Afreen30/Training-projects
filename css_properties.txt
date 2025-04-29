@@ -1,0 +1,50 @@
+CSS BASIC PROPERTIES
+
+
+1. DISPLAY PROPERTY:
+
+display: block; => Takes full width, starts on a new line
+display: inline; => Takes only needed width, stays with other elements
+display: inline-block; => Like inline, but you can set width & height
+display: none; => Hides the element completely (not in DOM flow)
+display: flex; => Use when you want to arrange child elements (div) in a row or column easily (flexbox) – parent div should be flex – applied for child not nested child
+display: grid; => Arranges children in rows & columns (grid layout)
+
+flex-direction: row; 
+Use when items should align next to each other horizontally (left to right)
+
+flex-direction: column; 
+Use when items should stack vertically (top to bottom).
+
+justify-content => Main axis alignment 
+
+justify-content: center; => use to center items horizontally(for row) and vertically (for col)
+justify-content: flex-start; => Aligns items to the start (left for row, top for column)
+justify-content: space-between; => Use when you want first item at start, last at end, and space in between
+justify-content: space-around; => Use when you want equal space around all items
+justify-content: space-evenly; => Use when you want exactly equal space between all items.
+
+align-items  =>  Cross axis alignment
+
+align-items: center; => use to center items vertically (for row)
+align-items: stretch; => items stretch to fill height (width in col)
+align-items: flex-start; => Aligns items to the top (for row) or left (for col)
+align-items: flex-end; => Aligns items to the bottom (for row) or right (for col)
+flex-wrap: wrap; => Use when you want items to move to the next line if there's no space
+gap => Use to add spacing between items without using margin (applied if given display property)
+
+2. POSITION PROPERTIES
+
+position: static;    =>  Default position
+position: relative;  => Moves element relative to its normal place(like slight move for icons)
+position: absolute; => Use when placing an element freely inside a positioned container
+position: fixed;  => Stays in place even when scrolling. Use for sticky headers, navbars that stay on top while scrolling
+position: sticky; => Use when you want an element to stick while scrolling until a limit
+Z-index => Use to control which element appears on top (like modals or dropdowns)
+
+
+margin  =>  Use to create space outside an element
+
+padding  => Use to create space inside an element (between content and border)
+
+box-sizing: border-box;  =>  Includes padding & border in width & height
